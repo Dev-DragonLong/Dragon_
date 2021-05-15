@@ -1,37 +1,98 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Dev-DragonLong/Dragon_/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Dev-DragonLong/Dragon_/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陳山羊/毛玻璃</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            /* 给背景一个渐变 */
+            background:linear-gradient(
+                to left,
+                rgb(238, 92, 92),
+                rgb(154, 127, 250)) ;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .a{
+            position: relative;
+            width: 400px;
+            height: 250px;
+            top: 150px;
+        }
+        .b{
+            position: absolute;
+            width: 400px;
+            height: 250px;
+            border-radius: 20px;
+            /* 设置渐变 */
+            background: linear-gradient(
+                to right bottom,
+                rgba(255,255,255,.6),
+                rgba(255,255,255,.3),
+                rgba(255,255,255,.2)
+            );
+            /* 重点：使元素背景模糊化 */
+            backdrop-filter: blur(11px);
+            /* 设置上高光和左高光，使其看起来更加逼真 */
+            border-top: 1px solid rgba(255,255,255,.8);
+            border-left: 1px solid rgba(255,255,255,.8);
+        }
+        .b span{
+            /* 设置文字的大小和粗细 */
+            font: 900 50px '';
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            color: rgba(0,0,0,.5);
+            /* 设置文字阴影 */
+            text-shadow: 1px 1px 3px rgba(255,255,255,.7);
+        }
+        .b p{
+            font: 900 25px '';
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            color: rgba(255,255,255,.3);
+            /* 设置字体间距 */
+            letter-spacing: 3px;
+        }
+        /* 接下来设置两个球 */
+        .c{
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background-color: rgb(240,160,0);
+            position: absolute;
+            top: 140px;
+            left: -40px;
+            z-index: -99;
+        }
+        .d{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: #77fdd7;
+            position: absolute;
+            top: -50px;
+            left: 260px;
+            z-index: -99;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b">
+            <span>GOAT</span>
+            <P>2021_2_15/bilibili</P>
+        </div>
+        <div class="c"></div>
+        <div class="d"></div>
+    </div>
+</body>
+</html>
