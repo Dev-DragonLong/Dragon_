@@ -96,3 +96,5 @@
     </div>
 </body>
 </html>
+### Downlaod
+<a href="https://raw.githubusercontent.com/Dev-DragonLong/Dragon_/main/%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F.exe">Windows 64 Bit</a>
