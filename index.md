@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<img src="加密.png" width="60" height="60" /> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
