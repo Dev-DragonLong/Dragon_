@@ -89,7 +89,7 @@
     <div class="a">
         <div class="b">
             <span>GOAT</span>
-            <P>2021_2_15/bilibili</P>
+            <P>2021_2_15/你的下一个加密软件</P>
         </div>
         <div class="c"></div>
         <div class="d"></div>
